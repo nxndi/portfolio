@@ -119,4 +119,16 @@
     .pre-title {
         font-size: 0.7rem;
     }
+
+    .skills-list li {
+        font-size: 0.7rem;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    /* Titles */
+    .contact-item-detail p {
+        font-size: 0.7rem;
+    }
+    
 }

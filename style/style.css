@@ -363,6 +363,10 @@ nav ul li a:hover {
     margin-top: 1.5rem;
 }
 
+.skills-list li {
+    padding: 4px 0px;
+}
+
 .skills-right p {
     text-align: justify;
 }
@@ -444,7 +448,6 @@ nav ul li a:hover {
 
 .contact-item-detail h4 {
     margin-bottom: 0.6rem;
-
 }
 
 /* Footer Section */
