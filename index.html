@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/responsive.css">
     <link rel="shortcut icon" href="./images/portfolios/profil.jpg" type="image/jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     
@@ -25,7 +27,7 @@
                         <li><a href="#portfolios">Portfolio</a></li>
                         <li><a href="#skills">Skills</a></li>
                         <li><a href="#contact">Contact</a></li>
-                        <li><a href="CV_Nandi Rifaldi.pdf" target="_blank">
+                        <li><a href="CV-Nandi Rifaldi.pdf" target="_blank">
                             <button class="btn">Resume</button>
                         </a></li>
                     </ul>
@@ -40,15 +42,15 @@
 
             <section id="hero">
                 <div class="hero-left">
-                    <h3 class="pre-title">My name is</h3>
-                    <h1 class="hero-name"> Nandi <span>Rifaldi</span></h1>
-                    <p>Bachelor of Information Engineering from Gunadarma University, I have developed a strong foundation in programming, system design, and
+                    <h3 class="pre-title animate__animated animate__fadeInLeft">My name is</h3>
+                    <h1 class="hero-name animate__animated animate__fadeInUp animate__delay-1s"> Nandi <span>Rifaldi</span></h1>
+                    <p class="animate__animated animate__fadeInUp animate__delay-2s">Bachelor of Information Engineering from Gunadarma University, I have developed a strong foundation in programming, system design, and
                         problem solving skills. During my studies, I gained practical experience through various projects incl
                         Article creation, Front-end developer, Game Developer, UI/UX design, and Animation creation. That
                         the combination of a strong technical foundation in Information Engineering with creative skills allows me to do so
                         provide effective, innovative and attractive solutions.</p>
                 </div>
-                <div class="hero-right">
+                <div class="hero-right animate__animated animate__zoomIn">
                     <img src="images/hero.svg" alt="Person Standing">
                 </div>
             </section>
@@ -59,12 +61,12 @@
     <!-- Services -->
     <section id="services">
         <div class="services main-container">
-            <h3 class="pre-title">Services</h3>
-            <h1 class="section-title services-title">Specialized In</h1>
+            <h3 class="pre-title" data-aos="fade-right">Services</h3>
+            <h1 class="section-title services-title" data-aos="fade-up">Specialized In</h1>
 
             <div class="grid-3">
                 <!-- Service 1 -->
-                <div class="service">
+                <div class="service" data-aos="fade-up" data-aos-delay="200">
                     <div class="service-icon">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M7 16h13v1h-13v-1zm13-3h-13v1h13v-1zm0-6h-5v1h5v-1zm0 3h-5v1h5v-1zm-17-8v17.199c0 .771-1 .771-1 0v-15.199h-2v15.98c0 1.115.905 2.02 2.02 2.02h19.958c1.117 0 2.022-.904 2.022-2.02v-17.98h-21zm19 17h-17v-15h17v15zm-9-12h-6v4h6v-4z"/></svg>
                     </div>
@@ -73,7 +75,7 @@
                 </div>
 
                 <!-- Service 2 -->
-                <div class="service">
+                <div class="service" data-aos="fade-up" data-aos-delay="400">
                     <div class="service-icon">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 10.935v2.131l-8 3.947v-2.23l5.64-2.783-5.64-2.79v-2.223l8 3.948zm-16 3.848l-5.64-2.783 5.64-2.79v-2.223l-8 3.948v2.131l8 3.947v-2.23zm7.047-10.783h-2.078l-4.011 16h2.073l4.016-16z"/></svg>
                     </div>
@@ -82,7 +84,7 @@
                 </div>
 
                 <!-- Service 3 -->
-                <div class="service">
+                <div class="service" data-aos="fade-up" data-aos-delay="600">
                     <div class="service-icon">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill-rule="evenodd" clip-rule="evenodd"><path d="M12 0c6.623 0 12 5.377 12 12s-5.377 12-12 12-12-5.377-12-12 5.377-12 12-12m2.557 16h-5.115c.546 2.46 1.441 4.114 2.558 5.744 1.194-1.741 2.041-3.41 2.557-5.744m-7.157 0h-4.567c1.236 2.825 3.704 4.972 6.755 5.716-1.048-1.733-1.783-3.658-2.188-5.716m13.767 0h-4.567c-.391 1.988-1.095 3.887-2.175 5.694 3.012-.763 5.517-2.895 6.742-5.694m-14.005-6h-4.962c-.267 1.313-.267 2.685 0 4h4.915c-.119-1.329-.101-2.672.047-4m7.661 0h-5.647c-.165 1.326-.185 2.672-.053 4h5.753c.133-1.328.111-2.673-.053-4m6.977 0h-4.963c.148 1.328.166 2.671.048 4h4.915c.26-1.285.273-2.648 0-4m-12.156-7.729c-3.077.732-5.567 2.886-6.811 5.729h4.653c.435-2.042 1.178-3.985 2.158-5.729m2.355-.048c-1.089 1.77-1.91 3.453-2.463 5.777h4.927c-.534-2.246-1.337-3.948-2.464-5.777m2.368.069c1.013 1.812 1.733 3.76 2.146 5.708h4.654c-1.232-2.816-3.762-4.958-6.8-5.708"/></svg>
                     </div>
@@ -91,7 +93,7 @@
                 </div>
 
                 <!-- Service 4 -->
-                <div class="service">
+                <div class="service" data-aos="fade-up" data-aos-delay="800">
                     <div class="service-icon">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M17.622 3c-1.913 0-2.558 1.382-5.623 1.382-3.009 0-3.746-1.382-5.623-1.382-5.209 0-6.376 10.375-6.376 14.348 0 2.145.817 3.652 2.469 3.652 3.458 0 2.926-5 6.915-5h5.23c3.989 0 3.457 5 6.915 5 1.652 0 2.471-1.506 2.471-3.651 0-3.973-1.169-14.349-6.378-14.349zm-10.622 10c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3zm10-6c.552 0 1 .447 1 1 0 .553-.448 1-1 1s-1-.447-1-1c0-.553.448-1 1-1zm-2 4c-.552 0-1-.447-1-1 0-.553.448-1 1-1s1 .447 1 1c0 .553-.448 1-1 1zm2 2c-.552 0-1-.447-1-1 0-.553.448-1 1-1s1 .447 1 1c0 .553-.448 1-1 1zm2-2c-.552 0-1-.447-1-1 0-.553.448-1 1-1s1 .447 1 1c0 .553-.448 1-1 1zm-10.25-1c0 .965-.785 1.75-1.75 1.75s-1.75-.785-1.75-1.75.785-1.75 1.75-1.75 1.75.785 1.75 1.75z"/></svg>
                     </div>
@@ -106,12 +108,12 @@
     <!-- Portfolio  -->
     <section id="portfolios">
         <div class="portfolios main-container">
-            <h3 class="pre-title" id="portfolios1">My Works</h3>
-            <h1 class="section-title">Featured Portfolios</h1>
+            <h3 class="pre-title" id="portfolios1" data-aos="fade-right">My Works</h3>
+            <h1 class="section-title" data-aos="fade-up">Featured Portfolios</h1>
 
             <div class="grid-3">
                 <!-- Portfolio 1 -->
-                <div class="portfolio">
+                <div class="portfolio" data-aos="fade-up" data-aos-delay="200">
                     <div class="portfolio-cover">
                         <img src="images/portfolios/moviein01.png" alt="Portfolio 8">
                     </div>
@@ -133,7 +135,7 @@
                 </div>
 
                 <!-- Portfolio 2 -->
-                <div class="portfolio">
+                <div class="portfolio" data-aos="fade-up" data-aos-delay="400">
                     <div class="portfolio-cover">
                         <img src="images/portfolios/weddingin.png" alt="Portfolio 8">
                     </div>
@@ -155,7 +157,7 @@
                 </div>
 
                 <!-- Portfolio 3 -->
-                <div class="portfolio">
+                <div class="portfolio" data-aos="fade-up" data-aos-delay="600">
                     <div class="portfolio-cover">
                         <img src="images/portfolios/blogger.png" alt="Portfolio 1">
                     </div>
@@ -178,7 +180,7 @@
                 </div>
 
                 <!-- Portfolio 4 -->
-                <div class="portfolio">
+                <div class="portfolio"data-aos="fade-up" data-aos-delay="800">
                     <div class="portfolio-cover">
                         <img src="images/portfolios/bandungIn1.png" alt="Portfolio 2">
                     </div>
@@ -202,7 +204,7 @@
                 </div>
 
                 <!-- Portfolio 5 -->
-                <div class="portfolio">
+                <div class="portfolio" data-aos="fade-up" data-aos-delay="200">
                     <div class="portfolio-cover">
                         <img src="images/portfolios/icon_genius_galaxy.png" alt="Portfolio 5">
                     </div>
@@ -225,7 +227,7 @@
                 </div>
 
                 <!-- Portfolio 6 -->
-                <div class="portfolio">
+                <div class="portfolio" data-aos="fade-up" data-aos-delay="400">
                     <div class="portfolio-cover">
                         <img src="images/portfolios/game-kuis1.png" alt="Portfolio 7">
                     </div>
@@ -248,7 +250,7 @@
                 </div>
 
                 <!-- Portfolio 7 -->
-                <div class="portfolio">
+                <div class="portfolio" data-aos="fade-up" data-aos-delay="600">
                     <div class="portfolio-cover">
                         <img src="images/portfolios/loggin_form.png" alt="Portfolio 3">
                     </div>
@@ -271,7 +273,7 @@
                 </div>
 
                 <!-- Portfolio 8 -->
-                <div class="portfolio">
+                <div class="portfolio" data-aos="fade-up" data-aos-delay="800">
                     <div class="portfolio-cover">
                         <img src="images/portfolios/login1.png" alt="Portfolio 4">
                     </div>
@@ -293,7 +295,7 @@
                 </div>
 
                 <!-- Portfolio 9 -->
-                <div class="portfolio">
+                <div class="portfolio" data-aos="fade-up" data-aos-delay="200">
                     <div class="portfolio-cover">
                         <img src="images/portfolios/pass-gen.png" alt="Portfolio 5">
                     </div>
@@ -316,7 +318,7 @@
                 </div>
 
                 <!-- Portfolio 10 -->
-                <div class="portfolio">
+                <div class="portfolio" data-aos="fade-up" data-aos-delay="400">
                     <div class="portfolio-cover">
                         <video controls>
                             <source src="images/portfolios/animasi.mp4">
@@ -348,8 +350,8 @@
     <!-- Skills & Education -->
     <section id="skills">
         <div class="skills main-container">
-            <h3 class="pre-title">Learning Path</h3>
-            <h1 class="section-title">Skills & Education</h1>
+            <h3 class="pre-title" data-aos="fade-right">Learning Path</h3>
+            <h1 class="section-title" data-aos="fade-up">Skills & Education</h1>
 
             <div class="skills-grid">
                 <div class="skills-left">
@@ -359,7 +361,7 @@
                             <div></div>
                         </div>
 
-                        <div class="education-info">
+                        <div class="education-info" data-aos="fade-left" data-aos-delay="200">
                             <h4 class="education-title">SMPN 200 Jakarta</h4>
                             <p>Student</p>
                             <h4 class="education-years">2014 - 2017</h4>
@@ -372,7 +374,7 @@
                             <div></div>
                         </div>
 
-                        <div class="education-info">
+                        <div class="education-info" data-aos="fade-left" data-aos-delay="400">
                             <h4 class="education-title">MAN 21 Jakarta</h4>
                             <p>Student - Natural Sciences Major</p>
                             <h4 class="education-years">2017 - 2020</h4>
@@ -385,7 +387,7 @@
                             <div></div>
                         </div>
 
-                        <div class="education-info">
+                        <div class="education-info" data-aos="fade-left" data-aos-delay="600">
                             <h4 class="education-title">Universitas Gunadarma</h4>
                             <p>Student - Informatics Engineering</p>
                             <h4 class="education-years">2020 - 2024</h4>
@@ -394,10 +396,10 @@
                 </div>
 
                 <div class="skills-right">
-                    <p>For 4+ years, I have been continously learning in the field of front-end and experimenting with new technologies and frameworks, and here you can see a summary of my skills. Field of front-end and experimenting with new technologies.</p>
+                    <p data-aos="zoom-in">For 4+ years, I have been continously learning in the field of front-end and experimenting with new technologies and frameworks, and here you can see a summary of my skills. Field of front-end and experimenting with new technologies.</p>
 
                     <div class="skills-list">
-                        <ul>
+                        <ul data-aos="fade-up" data-aos-delay="200">
                             <li><b>HTML</b> (Advanced)</li>
                             <li><b>CSS</b> (Advanced)</li>
                             <li><b>JavaScript</b> (Intermediate)</li>
@@ -406,7 +408,7 @@
                             <li><b>Unity3D</b> (Intermediate)</li>
                         </ul>
 
-                        <ul>
+                        <ul data-aos="fade-up" data-aos-delay="400">
                             <li><b>Github</b> (Intermediate)</li>
                             <li><b>Ms Word</b> (Advanced)</li>
                             <li><b>Ms Excel</b> (Advanced)</li>
@@ -424,7 +426,7 @@
     <!-- Contact -->
     <section id="contact">
         <div class="contact main-container">
-            <div class="contact-left">
+            <div class="contact-left" data-aos="fade-right">
                 <form class="contact-form" action="https://formspree.io/f/xbjvekdz" method="post">
                     <div>
                         <input type="text" placeholder="Name" name="name">
@@ -444,10 +446,10 @@
             <div class="contact-right">
                 <!-- Contact Item 1 -->
                 <div class="contact-item">
-                    <div class="contact-item-icon">
+                    <div class="contact-item-icon" data-aos="zoom-in">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 1c-3.148 0-6 2.553-6 5.702 0 3.148 2.602 6.907 6 12.298 3.398-5.391 6-9.15 6-12.298 0-3.149-2.851-5.702-6-5.702zm0 8c-1.105 0-2-.895-2-2s.895-2 2-2 2 .895 2 2-.895 2-2 2zm12 14h-24l4-8h3.135c.385.641.798 1.309 1.232 2h-3.131l-2 4h17.527l-2-4h-3.131c.435-.691.848-1.359 1.232-2h3.136l4 8z"/></svg>
                     </div>
-                    <div class="contact-item-detail">
+                    <div class="contact-item-detail" data-aos="fade-left" data-aos-delay="200">
                         <h4>Address</h4>
                         <p>Cilincing, Rorotan, Jakarta Utara</p>
                     </div>
@@ -455,10 +457,10 @@
 
                 <!-- Contact Item 2 -->
                 <div class="contact-item">
-                    <div class="contact-item-icon">
+                    <div class="contact-item-icon" data-aos="zoom-in" data-aos-delay="200">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20 22.621l-3.521-6.795c-.008.004-1.974.97-2.064 1.011-2.24 1.086-6.799-7.82-4.609-8.994l2.083-1.026-3.493-6.817-2.106 1.039c-7.202 3.755 4.233 25.982 11.6 22.615.121-.055 2.102-1.029 2.11-1.033z"/></svg>
                     </div>
-                    <div class="contact-item-detail">
+                    <div class="contact-item-detail" data-aos="fade-left" data-aos-delay="400">
                         <h4>Phone</h4>
                         <p>(+62) 857-8031-9175</p>
                     </div>
@@ -466,10 +468,10 @@
 
                 <!-- Contact Item 3 -->
                 <div class="contact-item">
-                    <div class="contact-item-icon">
+                    <div class="contact-item-icon" data-aos="zoom-in" data-aos-delay="400">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 3v18h24v-18h-24zm21.518 2l-9.518 7.713-9.518-7.713h19.036zm-19.518 14v-11.817l10 8.104 10-8.104v11.817h-20z"/></svg>
                     </div>
-                    <div class="contact-item-detail">
+                    <div class="contact-item-detail" data-aos="fade-left" data-aos-delay="600">
                         <h4>Email</h4>
                         <p>nandirifaldi25@gmail.com</p>
                     </div>
@@ -499,5 +501,9 @@
     <!-- End of Footer -->
 
     <script src="scripts/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
